@@ -41,6 +41,7 @@ dependencies {
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
     annotationProcessor("org.projectlombok:lombok")
     // Querydsl 추가
+    // https://www.inflearn.com/chats/700670
     implementation ("com.querydsl:querydsl-jpa:5.0.0:jakarta")
     annotationProcessor ("com.querydsl:querydsl-apt:5.0.0:jakarta")
     annotationProcessor ("jakarta.annotation:jakarta.annotation-api")
