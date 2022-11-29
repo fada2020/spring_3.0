@@ -9,7 +9,9 @@ class MainController(private val memberService: MemberService) {
     @GetMapping("/")
     fun main( model:Model):String{
         val findAll = memberService.findAll()
+        val findAll2 = memberService.findAll2()
         println("findAll = $findAll")
+        println("findAll = $findAll2")
         return "index";
     }
 }
