@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service
 
 @Service
 class MemberService(
-    private val memberRepository: MemberRepository
-   , private val memberImpl: MemberImpl
+     val memberRepository: MemberRepository
+   ,  val memberImpl: MemberImpl
 
     ) {
     fun findAll():List<Member>{

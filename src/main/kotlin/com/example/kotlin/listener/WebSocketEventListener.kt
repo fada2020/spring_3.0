@@ -10,7 +10,8 @@ import org.springframework.messaging.simp.stomp.StompHeaderAccessor
 import org.springframework.stereotype.Component
 import org.springframework.web.socket.messaging.SessionConnectedEvent
 import org.springframework.web.socket.messaging.SessionDisconnectEvent
-
+//https://ratseno.tistory.com/72?category=773803
+//https://basketdeveloper.tistory.com/78
 @Component
 class WebSocketEventListener(
     private val messagingTemplate: SimpMessageSendingOperations?

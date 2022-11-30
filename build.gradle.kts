@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    val kotlinVersion = "1.7.10"
+    val kotlinVersion = "1.7.21"
     id("org.springframework.boot") version "3.0.0"
     id("io.spring.dependency-management") version "1.1.0"
     kotlin("jvm") version kotlinVersion
@@ -10,6 +10,7 @@ plugins {
     // ✅ KAPT(Kotlin Annotation Processing Tool)를 설치합니다
     kotlin("kapt") version kotlinVersion
     // ✅ Intellij에서 사용할 파일을 생성하는 플러그인입니다
+
 }
 
 group = "com.example"

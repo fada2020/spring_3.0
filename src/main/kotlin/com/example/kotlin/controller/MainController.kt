@@ -5,7 +5,7 @@ import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
 import org.springframework.web.bind.annotation.GetMapping
 @Controller
-class MainController(private val memberService: MemberService) {
+class MainController(val memberService: MemberService) {
     @GetMapping("/")
     fun main( model:Model):String{
         val findAll = memberService.findAll()
