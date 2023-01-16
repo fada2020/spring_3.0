@@ -1,0 +1,8 @@
+FROM openjdk:17
+
+EXPOSE 8080
+VOLUME ["/var/log"]
+ADD ./build/libs/*.jar app.jar
+
+ENTRYPOINT ["java", "-jar","-Dspring.profiles.active=prod", "/app.jar"]
+
