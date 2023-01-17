@@ -32,7 +32,7 @@ jobs:
     - name: make application-database.yaml
       run: |
         # create application-prod.yaml
-        echo pwd
+        pwd
         cd ./src/main/resources
 
         # application-database.yaml 파일 생성
